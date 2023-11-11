@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/base.css" />
+
+    <!-- FAVICON ICON -->
+    <link rel="icon" href="./img/favicon.ico" />
+</head>
+
+
+<body>
+    <div class="big-container box1">
+        <header id="contest-header" class="contest-header box">
+            <h1 class="header-text">MCQ Quiz </h1>
+            <h6 class="Pro"><i class="icon"></i>Pro</h6>
+        </header>
+
+        <main id="main-container" class=" main-container box">
+            <section id="level" class="level box1">
+                <div class="level-medium">
+                    <h4 class="medium-h4">Medium</h4>
+                </div>
+                <div class="quesandReat">
+                    <div class="level-ques">
+                        <h4 class="h4-rate">No.1</h4>
+                    </div>
+                    <div class="level-rate">
+                        <h4 class="h4-rate">50%</h4>
+                    </div>
+                </div>
+
+            </section>
+            <section id="exam-question" class="exam-question box1">
+                <div class="ag-format-container">
+                    <div id="question" class="ag-effect-shadow_box"></div>
+                </div>
+                <ul id="choices" class="choices">
+
+                </ul>
+            </section>
+            <section id="result-btn" class="result-btn box1">
+
+
+                <a id="submit" class="exp-btn" onclick="Explanation()">
+                    <span class="popuptext" id="exp-btn">Explanation</span>
+                </a>
+
+                <a id="next" class="Dis-btn" onclick="Discussion()">
+                    <span class="popuptext" id="Dis-btn">Discussion</span>
+                </a>
+
+
+
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="messageModel">
+                            <!-- <span class="disMiss">DISMISS</span> -->
+                            <p id="modalMessage">Some text in the Modal..</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer id="contest-footer" class="contest-footer box">
+            <h6 class="footer-text">Freelancer.com Contest. ©2023</h6>
+        </footer>
+    </div>
+
+    <!-- SCRIPT LINKS -->
+    <script src="./js/app.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modelMassage.js"></script>
+
+    <script src="https://kit.fontawesome.com/69a3ceea7f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

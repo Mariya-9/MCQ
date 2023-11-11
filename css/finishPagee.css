@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0e0e;
+  color: #f5f5dc;
+  font-family: "Rajdhani", sans-serif;
+
+  height: 100vh;
+  font-weight: 200;
+}
+
+/* GRID SECTION START */
+.big-container {
+  width: 40%;
+  margin: 15% auto;
+
+  text-align: center;
+  border: 1px solid #f5f5dc;
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1fr));
+  grid-template-rows: repeat(auto-fit, minmax(1fr));
+  grid-gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  /* border-radius: 2rem; */
+  /* padding: 0.5rem; */
+
+  color: #f5f5dc;
+  border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+  /* box-shadow: 1px 0.5px 0.2px #f5f5dc; */
+
+  margin: auto;
+  width: 80px;
+  padding: 0.8rem;
+  border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+  box-shadow: 0 4vmin 16vmin #ffb6c1 inset, 0 2vmin 5vmin #ffb6c1 inset,
+    0 4vmin 4vmin #ffb6c1 inset, 0 6vmin 8vmin purple inset;
+}
+
+a:hover {
+  color: #ffb6c1;
+  background-color: #f5f5dc;
+  box-shadow: none;
+}
